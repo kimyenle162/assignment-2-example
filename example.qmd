@@ -1,0 +1,10 @@
+---
+title: "ETC5513 - Assignment 2 - Example"
+author: "Kim Yen Le - 35649658"
+format: html
+editor: visual
+---
+
+## Introduction
+
+This is the example file for assignment 2!
