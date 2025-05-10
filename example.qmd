@@ -9,3 +9,15 @@ editor: visual
 
 This is the example file for assignment 2!
 These are changes on both main branch and testbranch!
+
+```{r}
+library("tidyverse")
+library("here")
+library("ggplot2")
+ai_generated_art_popularity <- read_csv(here("data/AI_Generated_Art_Popularity_Processed.csv"))
+ggplot(ai_generated_art_popularity, aes(x = Price)) +
+  geom_histogram(bins = 10, fill = "lightblue", alpha = 0.7, color = "black") +
+  labs(x = "Price", y = "Quantity") +
+  theme_minimal()
+```
+
